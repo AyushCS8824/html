@@ -1,0 +1,43 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
+
+
+div:hover{
+    animation-name: Ayush;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+}
+@keyframes Ayush {
+    0%{
+        background-color: aqua;
+        height: 500px;
+        width: 350px;
+
+    }
+    25%{
+        background-color: blueviolet;
+        height: 600px;
+        border-radius: 50%;
+
+    }
+    50%{
+        background-color: black;
+        width: 100vw;
+
+
+    }
+    75%{
+        background-color: chartreuse;
+        width: 200vw;
+
+    }
+    100%{
+        background-color: crimson;
+        height: 200px;
+
+    }
+    
+}

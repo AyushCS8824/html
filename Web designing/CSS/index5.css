@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(red,orange,blue,skyblue,yellow);
+}
+div:hover{
+    transition-duration: 10s;
+}
+
+
+
